@@ -50,7 +50,7 @@ def go_playgame():
             print(f"El usuario eligio: {ipt}")
             print(f"usu: {usu}, mac: {mac}")
             print(f"Gano el usuario")
-        elif comp == inp:
+        elif comp == ipt:
             n += 1
             print(f"La maquina eligio: {comp}")
             print(f"El usuario eligio: {ipt}")
