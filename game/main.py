@@ -59,6 +59,6 @@ def go_playgame():
         else:
             print("Algo salio mal")
             
-        
+    return "Se termino el juego"
         
 go_playgame()
