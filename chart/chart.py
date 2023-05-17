@@ -1,4 +1,4 @@
-import maplotlib as plt
+import matplotlib as plt
 
 def generar_pie_chat():
     labels = ["A", "B", "C"]
