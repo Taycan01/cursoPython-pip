@@ -9,4 +9,6 @@ def generar_pie_chat():
     plt.savefig("pie.png")
     plt.close()
     
-generar_pie_chat()
+#generar_pie_chat()
+
+print("Esto funciona bien")
