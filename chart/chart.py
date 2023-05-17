@@ -6,7 +6,7 @@ def generar_pie_chat():
     
     fig, ax = plt.subplots()
     ax.pie(values, labels=labels)
-    plt.savefig(".pie.png")
+    plt.savefig("pie.png")
     plt.close()
     
 generar_pie_chat()
