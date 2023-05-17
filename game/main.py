@@ -27,16 +27,19 @@ def go_playgame():
             print(f"usu: {usu}, mac: {mac}")
             print(f"Gano la maquina")
         elif comp == "Tijera" and ipt == "Piedra":
+            usu += 1
             print(f"La maquina eligio: {comp}")
             print(f"El usuario eligio: {ipt}")
             print(f"usu: {usu}, mac: {mac}")
             print(f"Gano el usuario")
         elif comp == "Tijera" and ipt == "Papel":
+            mac += 1
             print(f"La maquina eligio: {comp}")
             print(f"El usuario eligio: {ipt}")
             print(f"usu: {usu}, mac: {mac}")
             print("Gano la maquina")
         elif comp == "Papel" and ipt == "Tijera":
+            usu += 1
             print(f"La maquina eligio: {comp}")
             print(f"El usuario eligio: {ipt}")
             print(f"usu: {usu}, mac: {mac}")
