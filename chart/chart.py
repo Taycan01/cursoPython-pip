@@ -1,4 +1,4 @@
-import matplotlib as plt
+import matplotlib.pyplot as plt
 
 def generar_pie_chat():
     labels = ["A", "B", "C"]
@@ -9,6 +9,6 @@ def generar_pie_chat():
     plt.savefig("pie.png")
     plt.close()
     
-#generar_pie_chat()
+generar_pie_chat()
 
-print("Esto funciona bien")
+# print("Esto funciona bien")
