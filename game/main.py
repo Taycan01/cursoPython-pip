@@ -22,7 +22,7 @@ def go_playgame():
             print(f"El usuario eligio: {ipt}")
             print(f"usu: {usu}, mac: {mac}")
             print(f"Gano la maquina")
-        elif comp == "Piedra" and inp == "Tijera":
+        elif comp=="Piedra" and ipt == "Tijera":
             n += 1
             mac += 1
             print(f"La maquina eligio: {comp}")
