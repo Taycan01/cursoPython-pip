@@ -5,7 +5,7 @@ def get_categories():
     print(r.status_code)
     print(r.text)
     print(type(r.text))
-    elementos = r.job()
+    elementos = r.json()
     for ele in elementos:
         print(ele["name"])
         
